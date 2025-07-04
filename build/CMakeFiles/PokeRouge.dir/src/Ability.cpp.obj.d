@@ -1,4 +1,5 @@
-CMakeFiles/PokeRouge.dir/src/main.cpp.obj: E:\CMakeProject\src\main.cpp \
+CMakeFiles/PokeRouge.dir/src/Ability.cpp.obj: \
+ E:\CMakeProject\src\Ability.cpp E:/CMakeProject/include/Ability.h \
  E:/CMakeProject/include/common.h \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

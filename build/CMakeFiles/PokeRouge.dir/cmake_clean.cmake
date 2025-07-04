@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PokeRouge.dir/src/Ability.cpp.obj"
   "CMakeFiles/PokeRouge.dir/src/Ability.cpp.obj.d"
+  "CMakeFiles/PokeRouge.dir/src/Atlas.cpp.obj"
+  "CMakeFiles/PokeRouge.dir/src/Atlas.cpp.obj.d"
   "CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.obj"
   "CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.obj.d"
   "CMakeFiles/PokeRouge.dir/src/main.cpp.obj"

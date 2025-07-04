@@ -25,6 +25,7 @@ add_executable(PokeRouge
     src/main.cpp 
     src/Pokemon.cpp
     src/Ability.cpp
+    src/Atlas.cpp
 )
 
 # 添加头文件目录

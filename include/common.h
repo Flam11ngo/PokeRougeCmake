@@ -8,6 +8,8 @@
 #include<string>
 #include<algorithm>
 #include<map>
+#include<cmath>
+#include<functional>
 enum class Type{
     Normal,
     Fighting,

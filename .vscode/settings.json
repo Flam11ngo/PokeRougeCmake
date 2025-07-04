@@ -3,6 +3,8 @@
         "*.dbclient-js": "javascript",
         "*.docx": "office-addin-dev-kit-output",
         "iostream": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "algorithm": "cpp",
+        "tuple": "cpp"
     }
 }

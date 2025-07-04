@@ -152,6 +152,30 @@ src/Ability.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/Ability.cpp.s
 .PHONY : src/Ability.cpp.s
 
+src/Atlas.obj: src/Atlas.cpp.obj
+.PHONY : src/Atlas.obj
+
+# target to build an object file
+src/Atlas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/Atlas.cpp.obj
+.PHONY : src/Atlas.cpp.obj
+
+src/Atlas.i: src/Atlas.cpp.i
+.PHONY : src/Atlas.i
+
+# target to preprocess a source file
+src/Atlas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/Atlas.cpp.i
+.PHONY : src/Atlas.cpp.i
+
+src/Atlas.s: src/Atlas.cpp.s
+.PHONY : src/Atlas.s
+
+# target to generate assembly for a file
+src/Atlas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/Atlas.cpp.s
+.PHONY : src/Atlas.cpp.s
+
 src/Pokemon.obj: src/Pokemon.cpp.obj
 .PHONY : src/Pokemon.obj
 
@@ -212,6 +236,9 @@ help:
 	@echo ... src/Ability.obj
 	@echo ... src/Ability.i
 	@echo ... src/Ability.s
+	@echo ... src/Atlas.obj
+	@echo ... src/Atlas.i
+	@echo ... src/Atlas.s
 	@echo ... src/Pokemon.obj
 	@echo ... src/Pokemon.i
 	@echo ... src/Pokemon.s
