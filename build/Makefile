@@ -128,6 +128,30 @@ PokeRouge/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/build
 .PHONY : PokeRouge/fast
 
+src/Ability.obj: src/Ability.cpp.obj
+.PHONY : src/Ability.obj
+
+# target to build an object file
+src/Ability.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/Ability.cpp.obj
+.PHONY : src/Ability.cpp.obj
+
+src/Ability.i: src/Ability.cpp.i
+.PHONY : src/Ability.i
+
+# target to preprocess a source file
+src/Ability.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/Ability.cpp.i
+.PHONY : src/Ability.cpp.i
+
+src/Ability.s: src/Ability.cpp.s
+.PHONY : src/Ability.s
+
+# target to generate assembly for a file
+src/Ability.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/Ability.cpp.s
+.PHONY : src/Ability.cpp.s
+
 src/Pokemon.obj: src/Pokemon.cpp.obj
 .PHONY : src/Pokemon.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PokeRouge
+	@echo ... src/Ability.obj
+	@echo ... src/Ability.i
+	@echo ... src/Ability.s
 	@echo ... src/Pokemon.obj
 	@echo ... src/Pokemon.i
 	@echo ... src/Pokemon.s

@@ -3,13 +3,15 @@
 class Pokemon {
 public:
     Pokemon(std::string name, Type type, int level)
-        : name(name), type(type), level(level), status(Status::None) {}
+        : name(name), type(type), level(level), status({}) {}
+    Pokemon(std::string name, Type type, Type type_, int level)
+        : name(name), type(type), type_(type_), level(level), status({}) {}
 
     void setStatus(Status newStatus) {
-        status = newStatus;
+        status.push_back(newStatus);
     }
 
-    Status getStatus() const {
+    std::vector<Status> getStatus() const {
         return status;
     }
 
@@ -20,29 +22,25 @@ public:
     Type getType() const {
         return type;
     }
-
+    Type getType_() const {
+        return type_;
+    }
     int getLevel() const {
         return level;
     }
     void levelUp() {
         level++;
     }
-    void printInfo() const {
-        std::cout << "Pokemon Name: " << name << "\n"
-                  << "Type: " << static_cast<int>(type) << "\n"
-                  << "Level: " << level << "\n"
-                  << "Status: " << static_cast<int>(status) << "\n";
-    }
 private:
     std::string name;
     Type type;
+    Type type_;
     int level;
-    Status status;
+    std::vector<Status> status;
 };
-std::ostream& operator<<(std::ostream& os, const Pokemon& pokemon) {
+inline std::ostream& operator<<(std::ostream& os, const Pokemon& pokemon) {
     os << "Pokemon Name: " << pokemon.getName() << "\n"
        << "Type: " << static_cast<int>(pokemon.getType()) << "\n"
-       << "Level: " << pokemon.getLevel() << "\n"
-       << "Status: " << static_cast<int>(pokemon.getStatus()) << "\n";
+       << "Level: " << pokemon.getLevel() << "\n";
     return os;
 }

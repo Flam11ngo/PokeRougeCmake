@@ -24,6 +24,7 @@ find_package(SDL2_image REQUIRED)
 add_executable(PokeRouge 
     src/main.cpp 
     src/Pokemon.cpp
+    src/Ability.cpp
 )
 
 # 添加头文件目录

@@ -8,7 +8,6 @@ int main(){
                                           SDL_WINDOWPOS_UNDEFINED,
                                           800, 600,
                                           SDL_WINDOW_SHOWN);
-    while(true)
-        ;
+    while(true);
     return 0;
 }
