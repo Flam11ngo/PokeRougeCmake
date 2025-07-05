@@ -9,7 +9,7 @@ public:
     void clear();
     void addTexture(SDL_Texture *texture);
     SDL_Texture *getTexture(size_t index) const;
-
 private:
     std::vector<SDL_Texture*> textures;
+    SDL_Renderer* renderer = nullptr;
 };

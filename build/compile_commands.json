@@ -22,5 +22,11 @@
   "command": "D:\\MINGW\\bin\\g++.exe  @CMakeFiles/PokeRouge.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PokeRouge.dir\\src\\Atlas.cpp.obj -c E:\\CMakeProject\\src\\Atlas.cpp",
   "file": "E:/CMakeProject/src/Atlas.cpp",
   "output": "CMakeFiles/PokeRouge.dir/src/Atlas.cpp.obj"
+},
+{
+  "directory": "E:/CMakeProject/build",
+  "command": "D:\\MINGW\\bin\\g++.exe  @CMakeFiles/PokeRouge.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PokeRouge.dir\\src\\Global.cpp.obj -c E:\\CMakeProject\\src\\Global.cpp",
+  "file": "E:/CMakeProject/src/Global.cpp",
+  "output": "CMakeFiles/PokeRouge.dir/src/Global.cpp.obj"
 }
 ]

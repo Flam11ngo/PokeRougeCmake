@@ -176,6 +176,30 @@ src/Atlas.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/Atlas.cpp.s
 .PHONY : src/Atlas.cpp.s
 
+src/Global.obj: src/Global.cpp.obj
+.PHONY : src/Global.obj
+
+# target to build an object file
+src/Global.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/Global.cpp.obj
+.PHONY : src/Global.cpp.obj
+
+src/Global.i: src/Global.cpp.i
+.PHONY : src/Global.i
+
+# target to preprocess a source file
+src/Global.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/Global.cpp.i
+.PHONY : src/Global.cpp.i
+
+src/Global.s: src/Global.cpp.s
+.PHONY : src/Global.s
+
+# target to generate assembly for a file
+src/Global.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/Global.cpp.s
+.PHONY : src/Global.cpp.s
+
 src/Pokemon.obj: src/Pokemon.cpp.obj
 .PHONY : src/Pokemon.obj
 
@@ -239,6 +263,9 @@ help:
 	@echo ... src/Atlas.obj
 	@echo ... src/Atlas.i
 	@echo ... src/Atlas.s
+	@echo ... src/Global.obj
+	@echo ... src/Global.i
+	@echo ... src/Global.s
 	@echo ... src/Pokemon.obj
 	@echo ... src/Pokemon.i
 	@echo ... src/Pokemon.s

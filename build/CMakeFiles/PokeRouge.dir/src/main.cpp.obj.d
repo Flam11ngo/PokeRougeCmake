@@ -311,4 +311,6 @@ CMakeFiles/PokeRouge.dir/src/main.cpp.obj: E:\CMakeProject\src\main.cpp \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h \
+ E:/CMakeProject/include/Global.h E:/CMakeProject/include/Pokemon.h \
+ E:/CMakeProject/include/Ability.h E:/CMakeProject/include/Atlas.h
