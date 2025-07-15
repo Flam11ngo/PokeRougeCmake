@@ -1,18 +1,6 @@
 [
 {
   "directory": "E:/CMakeProject/build",
-  "command": "D:\\MINGW\\bin\\g++.exe  @CMakeFiles/PokeRouge.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PokeRouge.dir\\src\\main.cpp.obj -c E:\\CMakeProject\\src\\main.cpp",
-  "file": "E:/CMakeProject/src/main.cpp",
-  "output": "CMakeFiles/PokeRouge.dir/src/main.cpp.obj"
-},
-{
-  "directory": "E:/CMakeProject/build",
-  "command": "D:\\MINGW\\bin\\g++.exe  @CMakeFiles/PokeRouge.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PokeRouge.dir\\src\\Pokemon.cpp.obj -c E:\\CMakeProject\\src\\Pokemon.cpp",
-  "file": "E:/CMakeProject/src/Pokemon.cpp",
-  "output": "CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.obj"
-},
-{
-  "directory": "E:/CMakeProject/build",
   "command": "D:\\MINGW\\bin\\g++.exe  @CMakeFiles/PokeRouge.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PokeRouge.dir\\src\\Ability.cpp.obj -c E:\\CMakeProject\\src\\Ability.cpp",
   "file": "E:/CMakeProject/src/Ability.cpp",
   "output": "CMakeFiles/PokeRouge.dir/src/Ability.cpp.obj"
@@ -28,5 +16,17 @@
   "command": "D:\\MINGW\\bin\\g++.exe  @CMakeFiles/PokeRouge.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PokeRouge.dir\\src\\Global.cpp.obj -c E:\\CMakeProject\\src\\Global.cpp",
   "file": "E:/CMakeProject/src/Global.cpp",
   "output": "CMakeFiles/PokeRouge.dir/src/Global.cpp.obj"
+},
+{
+  "directory": "E:/CMakeProject/build",
+  "command": "D:\\MINGW\\bin\\g++.exe  @CMakeFiles/PokeRouge.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PokeRouge.dir\\src\\Pokemon.cpp.obj -c E:\\CMakeProject\\src\\Pokemon.cpp",
+  "file": "E:/CMakeProject/src/Pokemon.cpp",
+  "output": "CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.obj"
+},
+{
+  "directory": "E:/CMakeProject/build",
+  "command": "D:\\MINGW\\bin\\g++.exe  @CMakeFiles/PokeRouge.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PokeRouge.dir\\src\\main.cpp.obj -c E:\\CMakeProject\\src\\main.cpp",
+  "file": "E:/CMakeProject/src/main.cpp",
+  "output": "CMakeFiles/PokeRouge.dir/src/main.cpp.obj"
 }
 ]

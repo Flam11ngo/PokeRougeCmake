@@ -21,18 +21,15 @@ find_package(SDL2_mixer REQUIRED)
 find_package(SDL2_image REQUIRED)
 
 # 添加可执行文件
-add_executable(PokeRouge 
-    src/main.cpp 
-    src/Pokemon.cpp
-    src/Ability.cpp
-    src/Atlas.cpp
-    src/Global.cpp
-)
+file(GLOB_RECURSE SOURCES_CPP "src/*.cpp")
+file(GLOB_RECURSE SOURCES_C "srcSDL_gfx/*.c")
+set(SOURCES ${SOURCES_CPP} ${SOURCES_C})
+add_executable(PokeRouge ${SOURCES})
 
 # 添加头文件目录
-target_include_directories(PokeRouge PUBLIC 
-    ${CMAKE_CURRENT_SOURCE_DIR}/include
-)
+include_directories(include)
+include_directories(includeSDL_gfx)
+
 
 # 链接库
 target_link_libraries(PokeRouge PRIVATE 

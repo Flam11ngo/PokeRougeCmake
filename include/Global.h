@@ -1,7 +1,6 @@
 #pragma once
 #include "common.h"
 #include"Pokemon.h"
-extern Pikachu pikachu;
-
+extern std::vector<Pokemon> Id2Pokemon;
 
 void loadGlobalResources(SDL_Renderer *renderer);

@@ -9,7 +9,6 @@ Atlas::~Atlas() {
 }
 
 void Atlas::load( SDL_Renderer* renderer, const std::string& filePath ,int num) {
-    this->renderer = renderer;
     for(int i = 0; i < num; ++i) {
         std::string fullPath = filePath + std::to_string(i) + ".png";
         SDL_Texture* texture = IMG_LoadTexture(renderer, fullPath.c_str());

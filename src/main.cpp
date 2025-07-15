@@ -50,20 +50,17 @@ int main(){
                 mouse_pos.y = event.motion.y;
                 std::cout << "Mouse moved to: (" << mouse_pos.x << ", " << mouse_pos.y << ")\n";
             }
-
         }
         //deal with datas
         icon_rect.x = mouse_pos.x;
         icon_rect.y = mouse_pos.y;
         text_rect.x = mouse_pos.x + 50; // Offset text position
         text_rect.y = mouse_pos.y;
-        pikachu.on_update(delta);
+        Id2Pokemon[1].on_update(delta);
         // Render the icon at the mouse position
         SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
         SDL_RenderClear(renderer);
-        SDL_RenderCopy(renderer, tex_icon, nullptr, &icon_rect);
-        SDL_RenderCopy(renderer, tex_text, nullptr, &text_rect);
-        pikachu.on_draw(renderer);
+        Id2Pokemon[1].on_draw(renderer, icon_rect.x, icon_rect.y);
         SDL_RenderPresent(renderer);
         Uint64 end = SDL_GetPerformanceCounter();
         double elapsed = static_cast<double>(end - start) * 1000.0 / frequency;
