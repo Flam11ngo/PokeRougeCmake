@@ -176,6 +176,30 @@ src/Atlas.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/Atlas.cpp.s
 .PHONY : src/Atlas.cpp.s
 
+src/GameScene.obj: src/GameScene.cpp.obj
+.PHONY : src/GameScene.obj
+
+# target to build an object file
+src/GameScene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/GameScene.cpp.obj
+.PHONY : src/GameScene.cpp.obj
+
+src/GameScene.i: src/GameScene.cpp.i
+.PHONY : src/GameScene.i
+
+# target to preprocess a source file
+src/GameScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/GameScene.cpp.i
+.PHONY : src/GameScene.cpp.i
+
+src/GameScene.s: src/GameScene.cpp.s
+.PHONY : src/GameScene.s
+
+# target to generate assembly for a file
+src/GameScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/GameScene.cpp.s
+.PHONY : src/GameScene.cpp.s
+
 src/Global.obj: src/Global.cpp.obj
 .PHONY : src/Global.obj
 
@@ -224,6 +248,30 @@ src/Pokemon.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.s
 .PHONY : src/Pokemon.cpp.s
 
+src/SceneManager.obj: src/SceneManager.cpp.obj
+.PHONY : src/SceneManager.obj
+
+# target to build an object file
+src/SceneManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.obj
+.PHONY : src/SceneManager.cpp.obj
+
+src/SceneManager.i: src/SceneManager.cpp.i
+.PHONY : src/SceneManager.i
+
+# target to preprocess a source file
+src/SceneManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.i
+.PHONY : src/SceneManager.cpp.i
+
+src/SceneManager.s: src/SceneManager.cpp.s
+.PHONY : src/SceneManager.s
+
+# target to generate assembly for a file
+src/SceneManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PokeRouge.dir\build.make CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.s
+.PHONY : src/SceneManager.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -263,12 +311,18 @@ help:
 	@echo ... src/Atlas.obj
 	@echo ... src/Atlas.i
 	@echo ... src/Atlas.s
+	@echo ... src/GameScene.obj
+	@echo ... src/GameScene.i
+	@echo ... src/GameScene.s
 	@echo ... src/Global.obj
 	@echo ... src/Global.i
 	@echo ... src/Global.s
 	@echo ... src/Pokemon.obj
 	@echo ... src/Pokemon.i
 	@echo ... src/Pokemon.s
+	@echo ... src/SceneManager.obj
+	@echo ... src/SceneManager.i
+	@echo ... src/SceneManager.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

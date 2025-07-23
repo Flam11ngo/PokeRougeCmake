@@ -98,11 +98,26 @@ CMakeFiles/PokeRouge.dir/src/Atlas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PokeRouge.dir/src/Atlas.cpp.s"
 	D:\MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CMakeProject\src\Atlas.cpp -o CMakeFiles\PokeRouge.dir\src\Atlas.cpp.s
 
+CMakeFiles/PokeRouge.dir/src/GameScene.cpp.obj: CMakeFiles/PokeRouge.dir/flags.make
+CMakeFiles/PokeRouge.dir/src/GameScene.cpp.obj: CMakeFiles/PokeRouge.dir/includes_CXX.rsp
+CMakeFiles/PokeRouge.dir/src/GameScene.cpp.obj: E:/CMakeProject/src/GameScene.cpp
+CMakeFiles/PokeRouge.dir/src/GameScene.cpp.obj: CMakeFiles/PokeRouge.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\CMakeProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PokeRouge.dir/src/GameScene.cpp.obj"
+	D:\MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PokeRouge.dir/src/GameScene.cpp.obj -MF CMakeFiles\PokeRouge.dir\src\GameScene.cpp.obj.d -o CMakeFiles\PokeRouge.dir\src\GameScene.cpp.obj -c E:\CMakeProject\src\GameScene.cpp
+
+CMakeFiles/PokeRouge.dir/src/GameScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PokeRouge.dir/src/GameScene.cpp.i"
+	D:\MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CMakeProject\src\GameScene.cpp > CMakeFiles\PokeRouge.dir\src\GameScene.cpp.i
+
+CMakeFiles/PokeRouge.dir/src/GameScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PokeRouge.dir/src/GameScene.cpp.s"
+	D:\MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CMakeProject\src\GameScene.cpp -o CMakeFiles\PokeRouge.dir\src\GameScene.cpp.s
+
 CMakeFiles/PokeRouge.dir/src/Global.cpp.obj: CMakeFiles/PokeRouge.dir/flags.make
 CMakeFiles/PokeRouge.dir/src/Global.cpp.obj: CMakeFiles/PokeRouge.dir/includes_CXX.rsp
 CMakeFiles/PokeRouge.dir/src/Global.cpp.obj: E:/CMakeProject/src/Global.cpp
 CMakeFiles/PokeRouge.dir/src/Global.cpp.obj: CMakeFiles/PokeRouge.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\CMakeProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PokeRouge.dir/src/Global.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\CMakeProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PokeRouge.dir/src/Global.cpp.obj"
 	D:\MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PokeRouge.dir/src/Global.cpp.obj -MF CMakeFiles\PokeRouge.dir\src\Global.cpp.obj.d -o CMakeFiles\PokeRouge.dir\src\Global.cpp.obj -c E:\CMakeProject\src\Global.cpp
 
 CMakeFiles/PokeRouge.dir/src/Global.cpp.i: cmake_force
@@ -117,7 +132,7 @@ CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.obj: CMakeFiles/PokeRouge.dir/flags.mak
 CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.obj: CMakeFiles/PokeRouge.dir/includes_CXX.rsp
 CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.obj: E:/CMakeProject/src/Pokemon.cpp
 CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.obj: CMakeFiles/PokeRouge.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\CMakeProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\CMakeProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.obj"
 	D:\MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.obj -MF CMakeFiles\PokeRouge.dir\src\Pokemon.cpp.obj.d -o CMakeFiles\PokeRouge.dir\src\Pokemon.cpp.obj -c E:\CMakeProject\src\Pokemon.cpp
 
 CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.i: cmake_force
@@ -128,11 +143,26 @@ CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.s"
 	D:\MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CMakeProject\src\Pokemon.cpp -o CMakeFiles\PokeRouge.dir\src\Pokemon.cpp.s
 
+CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.obj: CMakeFiles/PokeRouge.dir/flags.make
+CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.obj: CMakeFiles/PokeRouge.dir/includes_CXX.rsp
+CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.obj: E:/CMakeProject/src/SceneManager.cpp
+CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.obj: CMakeFiles/PokeRouge.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\CMakeProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.obj"
+	D:\MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.obj -MF CMakeFiles\PokeRouge.dir\src\SceneManager.cpp.obj.d -o CMakeFiles\PokeRouge.dir\src\SceneManager.cpp.obj -c E:\CMakeProject\src\SceneManager.cpp
+
+CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.i"
+	D:\MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CMakeProject\src\SceneManager.cpp > CMakeFiles\PokeRouge.dir\src\SceneManager.cpp.i
+
+CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.s"
+	D:\MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CMakeProject\src\SceneManager.cpp -o CMakeFiles\PokeRouge.dir\src\SceneManager.cpp.s
+
 CMakeFiles/PokeRouge.dir/src/main.cpp.obj: CMakeFiles/PokeRouge.dir/flags.make
 CMakeFiles/PokeRouge.dir/src/main.cpp.obj: CMakeFiles/PokeRouge.dir/includes_CXX.rsp
 CMakeFiles/PokeRouge.dir/src/main.cpp.obj: E:/CMakeProject/src/main.cpp
 CMakeFiles/PokeRouge.dir/src/main.cpp.obj: CMakeFiles/PokeRouge.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\CMakeProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PokeRouge.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\CMakeProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PokeRouge.dir/src/main.cpp.obj"
 	D:\MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PokeRouge.dir/src/main.cpp.obj -MF CMakeFiles\PokeRouge.dir\src\main.cpp.obj.d -o CMakeFiles\PokeRouge.dir\src\main.cpp.obj -c E:\CMakeProject\src\main.cpp
 
 CMakeFiles/PokeRouge.dir/src/main.cpp.i: cmake_force
@@ -147,8 +177,10 @@ CMakeFiles/PokeRouge.dir/src/main.cpp.s: cmake_force
 PokeRouge_OBJECTS = \
 "CMakeFiles/PokeRouge.dir/src/Ability.cpp.obj" \
 "CMakeFiles/PokeRouge.dir/src/Atlas.cpp.obj" \
+"CMakeFiles/PokeRouge.dir/src/GameScene.cpp.obj" \
 "CMakeFiles/PokeRouge.dir/src/Global.cpp.obj" \
 "CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.obj" \
+"CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.obj" \
 "CMakeFiles/PokeRouge.dir/src/main.cpp.obj"
 
 # External object files for target PokeRouge
@@ -156,8 +188,10 @@ PokeRouge_EXTERNAL_OBJECTS =
 
 PokeRouge.exe: CMakeFiles/PokeRouge.dir/src/Ability.cpp.obj
 PokeRouge.exe: CMakeFiles/PokeRouge.dir/src/Atlas.cpp.obj
+PokeRouge.exe: CMakeFiles/PokeRouge.dir/src/GameScene.cpp.obj
 PokeRouge.exe: CMakeFiles/PokeRouge.dir/src/Global.cpp.obj
 PokeRouge.exe: CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.obj
+PokeRouge.exe: CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.obj
 PokeRouge.exe: CMakeFiles/PokeRouge.dir/src/main.cpp.obj
 PokeRouge.exe: CMakeFiles/PokeRouge.dir/build.make
 PokeRouge.exe: E:/CMakeProject/thirdparty/SDL2-2.32.8/x86_64-w64-mingw32/lib/libSDL2.dll.a
@@ -167,7 +201,7 @@ PokeRouge.exe: E:/CMakeProject/thirdparty/SDL2_image-2.8.8/x86_64-w64-mingw32/li
 PokeRouge.exe: CMakeFiles/PokeRouge.dir/linkLibs.rsp
 PokeRouge.exe: CMakeFiles/PokeRouge.dir/objects1.rsp
 PokeRouge.exe: CMakeFiles/PokeRouge.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\CMakeProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PokeRouge.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\CMakeProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable PokeRouge.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PokeRouge.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

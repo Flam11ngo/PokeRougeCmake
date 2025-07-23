@@ -13,6 +13,12 @@
 },
 {
   "directory": "E:/CMakeProject/build",
+  "command": "D:\\MINGW\\bin\\g++.exe  @CMakeFiles/PokeRouge.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PokeRouge.dir\\src\\GameScene.cpp.obj -c E:\\CMakeProject\\src\\GameScene.cpp",
+  "file": "E:/CMakeProject/src/GameScene.cpp",
+  "output": "CMakeFiles/PokeRouge.dir/src/GameScene.cpp.obj"
+},
+{
+  "directory": "E:/CMakeProject/build",
   "command": "D:\\MINGW\\bin\\g++.exe  @CMakeFiles/PokeRouge.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PokeRouge.dir\\src\\Global.cpp.obj -c E:\\CMakeProject\\src\\Global.cpp",
   "file": "E:/CMakeProject/src/Global.cpp",
   "output": "CMakeFiles/PokeRouge.dir/src/Global.cpp.obj"
@@ -22,6 +28,12 @@
   "command": "D:\\MINGW\\bin\\g++.exe  @CMakeFiles/PokeRouge.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PokeRouge.dir\\src\\Pokemon.cpp.obj -c E:\\CMakeProject\\src\\Pokemon.cpp",
   "file": "E:/CMakeProject/src/Pokemon.cpp",
   "output": "CMakeFiles/PokeRouge.dir/src/Pokemon.cpp.obj"
+},
+{
+  "directory": "E:/CMakeProject/build",
+  "command": "D:\\MINGW\\bin\\g++.exe  @CMakeFiles/PokeRouge.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\PokeRouge.dir\\src\\SceneManager.cpp.obj -c E:\\CMakeProject\\src\\SceneManager.cpp",
+  "file": "E:/CMakeProject/src/SceneManager.cpp",
+  "output": "CMakeFiles/PokeRouge.dir/src/SceneManager.cpp.obj"
 },
 {
   "directory": "E:/CMakeProject/build",
