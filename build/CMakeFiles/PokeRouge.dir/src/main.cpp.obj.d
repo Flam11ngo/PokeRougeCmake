@@ -1,5 +1,5 @@
 CMakeFiles/PokeRouge.dir/src/main.cpp.obj: E:\CMakeProject\src\main.cpp \
- E:/CMakeProject/include/common.h \
+ E:/CMakeProject/include/SceneManager.h E:/CMakeProject/include/common.h \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -263,6 +263,24 @@ CMakeFiles/PokeRouge.dir/src/main.cpp.obj: E:\CMakeProject\src\main.cpp \
  E:/CMakeProject/thirdparty/SDL2-2.32.8/x86_64-w64-mingw32/include/SDL2/SDL_endian.h \
  E:/CMakeProject/thirdparty/SDL2-2.32.8/x86_64-w64-mingw32/include/SDL2/SDL_version.h \
  E:/CMakeProject/thirdparty/SDL2_image-2.8.8/x86_64-w64-mingw32/include/SDL2/SDL_image.h \
+ E:/CMakeProject/includeSDL_gfx/SDL_gfxPrimitives.h \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/math.h \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
+ D:/MINGW/x86_64-w64-mingw32/include/math.h \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/gamma.tcc \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/bessel_function.tcc \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/beta_function.tcc \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/ell_integral.tcc \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/exp_integral.tcc \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/hypergeometric.tcc \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/legendre_function.tcc \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/modified_bessel_func.tcc \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_hermite.tcc \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_laguerre.tcc \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
@@ -289,22 +307,6 @@ CMakeFiles/PokeRouge.dir/src/main.cpp.obj: E:\CMakeProject\src\main.cpp \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
- D:/MINGW/x86_64-w64-mingw32/include/math.h \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/gamma.tcc \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/bessel_function.tcc \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/special_function_util.h \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/beta_function.tcc \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/ell_integral.tcc \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/exp_integral.tcc \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/hypergeometric.tcc \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/legendre_function.tcc \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/modified_bessel_func.tcc \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_hermite.tcc \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/poly_laguerre.tcc \
- D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tr1/riemann_zeta.tcc \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
@@ -312,5 +314,12 @@ CMakeFiles/PokeRouge.dir/src/main.cpp.obj: E:\CMakeProject\src\main.cpp \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h \
  D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/random \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.h \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/random.tcc \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
+ D:/MINGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h \
  E:/CMakeProject/include/Global.h E:/CMakeProject/include/Pokemon.h \
- E:/CMakeProject/include/Ability.h E:/CMakeProject/include/Atlas.h
+ E:/CMakeProject/include/Ability.h E:/CMakeProject/include/Atlas.h \
+ E:/CMakeProject/include/Button.h
